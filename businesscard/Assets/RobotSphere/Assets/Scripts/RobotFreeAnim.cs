@@ -12,35 +12,34 @@ public class RobotFreeAnim : MonoBehaviour {
     Text walktext;
     Animator anim;
     bool walk = true;
+  
 	// Use this for initialization
 	void Awake()
 	{
 		anim = robot.GetComponent<Animator>();
         walktext = walkText.GetComponent<Text>();
-		gameObject.transform.eulerAngles = rot;
+        robot.transform.eulerAngles = rot;       
 	}
 
 	// Update is called once per frame
 	void Update()
 	{
-		//CheckKey();
-		gameObject.transform.eulerAngles = rot;
-	}
+		CheckKey();
+        robot.transform.eulerAngles = rot;
+        Debug.Log("ROBOT LOCALROTATION:"+robot.transform.localRotation);
+    }
 
     // Walk
     public void GetKeyWalk()
-    {
-        Debug.Log(walk);
+    {       
         if (walk)
-        {
-            Debug.Log("Walking");
+        {           
             walk = false;
             walktext.text = "Walk";
             anim.SetBool("Walk_Anim", true);
         }
         else
-        {
-            Debug.Log("Not walking");
+        {         
             walk = true;
             walktext.text = "Stop";
             anim.SetBool("Walk_Anim", false);
@@ -50,11 +49,12 @@ public class RobotFreeAnim : MonoBehaviour {
     // Rotate Left
     public void GetKeyLeft()
     {
+        Debug.Log("Left");
         rot[1] -= rotSpeed * Time.fixedDeltaTime;
     }
     // Rotate Right
     public void GetKeyRight()
-    {
+    {              
         rot[1] += rotSpeed * Time.fixedDeltaTime;
     }
 
