@@ -18,11 +18,58 @@ public class RobotFreeAnim : MonoBehaviour {
 	// Update is called once per frame
 	void Update()
 	{
-		CheckKey();
+		//CheckKey();
 		gameObject.transform.eulerAngles = rot;
 	}
 
-	void CheckKey()
+    // Walk
+    public void GetKeyWalk()
+    {
+        anim.SetBool("Walk_Anim", true);
+    }
+
+    public void GetKeyUpWalk()
+    {
+        anim.SetBool("Walk_Anim", false);
+    }
+    // Rotate Left
+    public void GetKeyLeft()
+    {
+        rot[1] -= rotSpeed * Time.fixedDeltaTime;
+    }
+    // Rotate Right
+    public void GetKeyRight()
+    {
+        rot[1] += rotSpeed * Time.fixedDeltaTime;
+    }
+
+    public void GetKeyDownRoll()
+    {
+        if (anim.GetBool("Roll_Anim"))
+        {
+            anim.SetBool("Roll_Anim", false);
+        }
+        else
+        {
+            anim.SetBool("Roll_Anim", true);
+        }
+    }
+
+    //close
+    public void GetKeyDownClose()
+    {       
+        if (!anim.GetBool("Open_Anim"))
+        {
+            anim.SetBool("Open_Anim", true);
+        }
+        else
+        {
+            anim.SetBool("Open_Anim", false);
+        }       
+    }
+
+    
+    void CheckKey()
 	{
 		// Walk
 		if (Input.GetKey(KeyCode.W))
