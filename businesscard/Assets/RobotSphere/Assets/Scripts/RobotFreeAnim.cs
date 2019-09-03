@@ -11,7 +11,7 @@ public class RobotFreeAnim : MonoBehaviour {
     public GameObject walkText;
     Text walktext;
     Animator anim;
-    bool walk = false;
+    bool walk = true;
 	// Use this for initialization
 	void Awake()
 	{
@@ -33,14 +33,14 @@ public class RobotFreeAnim : MonoBehaviour {
         Debug.Log(walk);
         if (walk)
         {
-            Debug.log("Walking");
+            Debug.Log("Walking");
             walk = false;
             walktext.text = "Walk";
             anim.SetBool("Walk_Anim", true);
         }
         else
         {
-            Debug.log("Not walking");
+            Debug.Log("Not walking");
             walk = true;
             walktext.text = "Stop";
             anim.SetBool("Walk_Anim", false);
