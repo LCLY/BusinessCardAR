@@ -1,17 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class RobotFreeAnim : MonoBehaviour {
 
 	Vector3 rot = Vector3.zero;
 	float rotSpeed = 40f;
-	Animator anim;
-
+    public GameObject robot;
+    public GameObject walkText;
+    Text walktext;
+    Animator anim;
+    bool walk = false;
 	// Use this for initialization
 	void Awake()
 	{
-		anim = gameObject.GetComponent<Animator>();
+		anim = robot.GetComponent<Animator>();
+        walktext = walkText.GetComponent<Text>();
 		gameObject.transform.eulerAngles = rot;
 	}
 
@@ -25,13 +30,23 @@ public class RobotFreeAnim : MonoBehaviour {
     // Walk
     public void GetKeyWalk()
     {
-        anim.SetBool("Walk_Anim", true);
+        Debug.Log(walk);
+        if (walk)
+        {
+            Debug.log("Walking");
+            walk = false;
+            walktext.text = "Walk";
+            anim.SetBool("Walk_Anim", true);
+        }
+        else
+        {
+            Debug.log("Not walking");
+            walk = true;
+            walktext.text = "Stop";
+            anim.SetBool("Walk_Anim", false);
+        }      
     }
-
-    public void GetKeyUpWalk()
-    {
-        anim.SetBool("Walk_Anim", false);
-    }
+ 
     // Rotate Left
     public void GetKeyLeft()
     {
