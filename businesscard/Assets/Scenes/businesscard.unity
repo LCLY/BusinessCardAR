@@ -2931,8 +2931,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0, y: -50.7}
-  m_SizeDelta: {x: 604.07, y: 81.93}
+  m_AnchoredPosition: {x: 0, y: -50.7}
+  m_SizeDelta: {x: 644.96, y: 81.93}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1597244706
 MonoBehaviour:
@@ -2967,7 +2967,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: For better experience, hold the card on hand while scanning and then put
+  m_Text: For better experience, hold the card on hand while scanning and then place
     on flat surface.
 --- !u!222 &1597244707
 CanvasRenderer:
