@@ -12,7 +12,9 @@ public class RobotFreeAnim : MonoBehaviour {
     Text walktext;
     Animator anim;
     bool walk = true;
-  
+    bool walkLeft = false;
+    bool walkRight = false;
+    public Transform oriPos;
 	// Use this for initialization
 	void Awake()
 	{
@@ -26,7 +28,23 @@ public class RobotFreeAnim : MonoBehaviour {
 	{
 		CheckKey();
         robot.transform.eulerAngles = rot;
-        Debug.Log("ROBOT LOCALROTATION:"+robot.transform.localRotation);
+        if (walkLeft)
+        {
+            robot.transform.Translate(0, 0, Time.deltaTime);
+        }
+        else
+        {
+            robot.transform.Translate(0, 0, 0);
+        }
+
+        if (walkRight)
+        {
+            robot.transform.Translate(0, Time.deltaTime, 0);
+        }
+        else
+        {
+            robot.transform.Translate(0, 0, 0);
+        }
     }
 
     // Walk
@@ -49,13 +67,19 @@ public class RobotFreeAnim : MonoBehaviour {
     // Rotate Left
     public void GetKeyLeft()
     {
+        walkLeft = true;
+        walkRight = false;
         Debug.Log("Left");
+      
         rot[1] -= rotSpeed * Time.fixedDeltaTime;
     }
     // Rotate Right
     public void GetKeyRight()
-    {              
+    {
+        walkRight = true;
+        walkLeft = false;
         rot[1] += rotSpeed * Time.fixedDeltaTime;
+    
     }
 
     public void GetKeyDownRoll()
@@ -83,6 +107,11 @@ public class RobotFreeAnim : MonoBehaviour {
         }       
     }
 
+    //reset position
+    public void ResetPosition()
+    {
+        robot.transform.position = oriPos;
+    }
     
     void CheckKey()
 	{
