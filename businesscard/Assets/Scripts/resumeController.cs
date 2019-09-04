@@ -33,8 +33,8 @@ public class resumeController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("x" + resumeObj.transform.localScale.x);
-        Debug.Log("y" + resumeObj.transform.localScale.y);
-        Debug.Log("z" + resumeObj.transform.localScale.z);
+        //Debug.Log("x" + resumeObj.transform.localScale.x);
+        //Debug.Log("y" + resumeObj.transform.localScale.y);
+        //Debug.Log("z" + resumeObj.transform.localScale.z);
     }
 }
