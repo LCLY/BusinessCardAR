@@ -13,6 +13,11 @@ public class triggerAnimation : MonoBehaviour
         
     }
 
+    public void JumpAnim()
+    {
+        charAnim.SetTrigger("Jump");
+    }
+
     public void WaveAnim()
     {
         charAnim.SetTrigger("Wave");
