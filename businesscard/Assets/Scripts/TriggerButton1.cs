@@ -29,9 +29,8 @@ public class TriggerButton1 : MonoBehaviour
                 Debug.Log("obj: " + obj.name);
                 if (obj.name == "button1")
                 {
-                    charAnim.SetTrigger("Wave");
                     clickbutton1.SetTrigger("button1"); //play the animation   
-                    
+                    charAnim.SetTrigger("Wave");                        
                 }
             }
         }
@@ -47,8 +46,8 @@ public class TriggerButton1 : MonoBehaviour
                     GameObject obj = hit.collider.gameObject;
                     if (obj.name == "button1")
                     {
-                        charAnim.SetTrigger("Wave");
-                        clickbutton1.SetTrigger("button1"); //play the animation                         
+                        clickbutton1.SetTrigger("button1"); //play the animation      
+                        charAnim.SetTrigger("Wave");                                           
                     }
                 }
             }

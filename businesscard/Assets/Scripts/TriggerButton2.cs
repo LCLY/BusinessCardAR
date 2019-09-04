@@ -29,8 +29,8 @@ public class TriggerButton2 : MonoBehaviour
                 Debug.Log("obj: " + obj.name);
                 if (obj.name == "button2")
                 {
-                    charAnim.SetTrigger("Pickup");
                     clickbutton2.SetTrigger("button2"); //play the animation             
+                    charAnim.SetTrigger("Pickup");                   
                 }
             }
         }
@@ -46,8 +46,8 @@ public class TriggerButton2 : MonoBehaviour
                     GameObject obj = hit.collider.gameObject;
                     if (obj.name == "button2")
                     {
-                        charAnim.SetTrigger("Pickup");
                         clickbutton2.SetTrigger("button2"); //play the animation  
+                        charAnim.SetTrigger("Pickup");                      
                     }
                 }
             }
