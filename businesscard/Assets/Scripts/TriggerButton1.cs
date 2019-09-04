@@ -8,6 +8,7 @@ public class TriggerButton1 : MonoBehaviour
     Animator clickbutton1;
     public GameObject charObj;
     Animator charAnim;
+    public AudioSource helloAudio;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,7 +31,8 @@ public class TriggerButton1 : MonoBehaviour
                 if (obj.name == "button1")
                 {
                     clickbutton1.SetTrigger("button1"); //play the animation   
-                    charAnim.SetTrigger("Wave");                        
+                    charAnim.SetTrigger("Wave");
+                    helloAudio.Play();
                 }
             }
         }
@@ -47,7 +49,8 @@ public class TriggerButton1 : MonoBehaviour
                     if (obj.name == "button1")
                     {
                         clickbutton1.SetTrigger("button1"); //play the animation      
-                        charAnim.SetTrigger("Wave");                                           
+                        charAnim.SetTrigger("Wave");
+                        helloAudio.Play();
                     }
                 }
             }

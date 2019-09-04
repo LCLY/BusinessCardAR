@@ -8,6 +8,7 @@ public class TriggerButton2 : MonoBehaviour
     Animator clickbutton2;
     public GameObject charObj;
     Animator charAnim;
+    public AudioSource pickUpAudio;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,7 +31,8 @@ public class TriggerButton2 : MonoBehaviour
                 if (obj.name == "button2")
                 {
                     clickbutton2.SetTrigger("button2"); //play the animation             
-                    charAnim.SetTrigger("Pickup");                   
+                    charAnim.SetTrigger("Pickup");
+                    pickUpAudio.Play();
                 }
             }
         }
@@ -47,7 +49,8 @@ public class TriggerButton2 : MonoBehaviour
                     if (obj.name == "button2")
                     {
                         clickbutton2.SetTrigger("button2"); //play the animation  
-                        charAnim.SetTrigger("Pickup");                      
+                        charAnim.SetTrigger("Pickup");
+                        pickUpAudio.Play();
                     }
                 }
             }

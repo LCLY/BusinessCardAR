@@ -19,7 +19,7 @@ public class resumeController : MonoBehaviour
 
     public void zoomOut()
     {
-        if(resumeObj.transform.localScale.x <= 1.5)
+        if(resumeObj.transform.localScale.x <= 1)
         {
             //do nothing
         }
