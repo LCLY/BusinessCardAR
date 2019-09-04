@@ -6,11 +6,13 @@ public class TriggerButton2 : MonoBehaviour
 {
     public GameObject button2;
     Animator clickbutton2;
-
+    public GameObject charObj;
+    Animator charAnim;
     // Start is called before the first frame update
     void Start()
     {
-
+        clickbutton2 = button2.GetComponent<Animator>();
+        charAnim = charObj.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -27,7 +29,8 @@ public class TriggerButton2 : MonoBehaviour
                 Debug.Log("obj: " + obj.name);
                 if (obj.name == "button2")
                 {
-                    //openCabinet.SetTrigger("clickbutton2"); //play the animation                   
+                    charAnim.SetTrigger("Pickup");
+                    clickbutton2.SetTrigger("button2"); //play the animation             
                 }
             }
         }
@@ -43,7 +46,8 @@ public class TriggerButton2 : MonoBehaviour
                     GameObject obj = hit.collider.gameObject;
                     if (obj.name == "button2")
                     {
-                        Debug.Log("obj: " + obj.name);                       
+                        charAnim.SetTrigger("Pickup");
+                        clickbutton2.SetTrigger("button2"); //play the animation  
                     }
                 }
             }
