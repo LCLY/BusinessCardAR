@@ -7,7 +7,7 @@ public class resumeController : MonoBehaviour
     public GameObject resumeObj;
     public void zoomIn()
     {
-        if (resumeObj.transform.localScale.x > 5)
+        if (resumeObj.transform.localScale.x > 3)
         {
             //do nothing
         }
