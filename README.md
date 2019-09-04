@@ -1,2 +1,2 @@
 # BusinessCardAR
-Use business card as target to generate AR 3d model
+Use business card as target to generate Augmented Reality 3D model
