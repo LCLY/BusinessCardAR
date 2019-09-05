@@ -8,9 +8,9 @@ const Background = () => {
                 <div className="title"> Business Card AR </div>
                 <img className="cardImg" src={cardImg} alt="card"></img>
                 <div className="download--wrapper">
-                    <div className="download__title">Want to try it out?</div>
+                    <div className="download__title">Try it yourself</div>
                     <Button variant="primary" size="lg">
-                        <i class="fas fa-download"></i>
+                        <i className="fas fa-download"></i>
                         &nbsp; Download
                     </Button>
                 </div>
