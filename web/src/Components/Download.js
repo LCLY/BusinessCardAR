@@ -6,7 +6,7 @@ const Download = () => {
             <div className="download__title">Try it yourself!</div>
             <Button variant="primary" size="lg">
                 <i className="fas fa-download"></i>
-                &nbsp; Download
+                &nbsp; Download Apk
             </Button>
             <div style={{ paddingTop: "0.5rem" }}>Only Android for now</div>
         </div>
