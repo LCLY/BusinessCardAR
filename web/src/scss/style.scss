@@ -1,4 +1,16 @@
 @import "app";
-.test {
-    color: blue;
+
+@media only screen and (min-width: 0px) {
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
 }
