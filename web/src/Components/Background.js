@@ -8,13 +8,11 @@ const Background = () => {
                 <div className="title"> Business Card AR </div>
                 <img className="cardImg" src={cardImg} alt="card"></img>
                 <div className="download--wrapper">
-                    <div className="download__innerwrapper">
-                        <div className="download__title">Try it yourself</div>
-                        <Button variant="primary" size="lg">
-                            <i className="fas fa-download"></i>
-                            &nbsp; Download
-                        </Button>
-                    </div>
+                    <div className="download__title">Try it yourself</div>
+                    <Button variant="primary" size="lg">
+                        <i className="fas fa-download"></i>
+                        &nbsp; Download
+                    </Button>
                 </div>
             </Container>
         </div>
