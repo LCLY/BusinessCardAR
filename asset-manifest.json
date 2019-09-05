@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/BusinessCardAR/static/css/main.2cce8147.chunk.css",
-    "main.js": "/BusinessCardAR/static/js/main.07361bc5.chunk.js",
-    "main.js.map": "/BusinessCardAR/static/js/main.07361bc5.chunk.js.map",
+    "main.css": "/BusinessCardAR/static/css/main.551c3ffa.chunk.css",
+    "main.js": "/BusinessCardAR/static/js/main.7240ca25.chunk.js",
+    "main.js.map": "/BusinessCardAR/static/js/main.7240ca25.chunk.js.map",
     "runtime~main.js": "/BusinessCardAR/static/js/runtime~main.0131e16e.js",
     "runtime~main.js.map": "/BusinessCardAR/static/js/runtime~main.0131e16e.js.map",
-    "static/js/2.765fc547.chunk.js": "/BusinessCardAR/static/js/2.765fc547.chunk.js",
-    "static/js/2.765fc547.chunk.js.map": "/BusinessCardAR/static/js/2.765fc547.chunk.js.map",
+    "static/css/2.266e55a5.chunk.css": "/BusinessCardAR/static/css/2.266e55a5.chunk.css",
+    "static/js/2.2cc0bdad.chunk.js": "/BusinessCardAR/static/js/2.2cc0bdad.chunk.js",
+    "static/js/2.2cc0bdad.chunk.js.map": "/BusinessCardAR/static/js/2.2cc0bdad.chunk.js.map",
     "index.html": "/BusinessCardAR/index.html",
-    "precache-manifest.8d2cc9665f6027865d87a97292057dc3.js": "/BusinessCardAR/precache-manifest.8d2cc9665f6027865d87a97292057dc3.js",
+    "precache-manifest.cfa3852ff047aaa146ea3ecad78c7b86.js": "/BusinessCardAR/precache-manifest.cfa3852ff047aaa146ea3ecad78c7b86.js",
     "service-worker.js": "/BusinessCardAR/service-worker.js",
-    "static/css/main.2cce8147.chunk.css.map": "/BusinessCardAR/static/css/main.2cce8147.chunk.css.map",
-    "static/media/logo.svg": "/BusinessCardAR/static/media/logo.5d5d9eef.svg"
+    "static/css/2.266e55a5.chunk.css.map": "/BusinessCardAR/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.551c3ffa.chunk.css.map": "/BusinessCardAR/static/css/main.551c3ffa.chunk.css.map",
+    "static/media/card.jpg": "/BusinessCardAR/static/media/card.a227a7a3.jpg",
+    "static/media/cardar-cut.mp4": "/BusinessCardAR/static/media/cardar-cut.114087cb.mp4"
   }
 }
