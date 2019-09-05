@@ -1,0 +1,16 @@
+.project__title {
+    padding-top: 1.5rem;
+
+    border-bottom: 1px grey;
+    h1 {
+        font-size: 1.8rem;
+    }
+}
+.project__desc {
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 1.3rem;
+    padding-bottom: 1.5rem;
+    .project__desc--content {
+        margin-right: 20%;
+    }
+}
