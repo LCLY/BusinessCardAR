@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/BusinessCardAR/static/css/main.2cce8147.chunk.css",
+    "main.js": "/BusinessCardAR/static/js/main.07361bc5.chunk.js",
+    "main.js.map": "/BusinessCardAR/static/js/main.07361bc5.chunk.js.map",
+    "runtime~main.js": "/BusinessCardAR/static/js/runtime~main.0131e16e.js",
+    "runtime~main.js.map": "/BusinessCardAR/static/js/runtime~main.0131e16e.js.map",
+    "static/js/2.765fc547.chunk.js": "/BusinessCardAR/static/js/2.765fc547.chunk.js",
+    "static/js/2.765fc547.chunk.js.map": "/BusinessCardAR/static/js/2.765fc547.chunk.js.map",
+    "index.html": "/BusinessCardAR/index.html",
+    "precache-manifest.8d2cc9665f6027865d87a97292057dc3.js": "/BusinessCardAR/precache-manifest.8d2cc9665f6027865d87a97292057dc3.js",
+    "service-worker.js": "/BusinessCardAR/service-worker.js",
+    "static/css/main.2cce8147.chunk.css.map": "/BusinessCardAR/static/css/main.2cce8147.chunk.css.map",
+    "static/media/logo.svg": "/BusinessCardAR/static/media/logo.5d5d9eef.svg"
+  }
+}
