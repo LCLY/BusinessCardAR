@@ -1,3 +1,22 @@
 .videoWrapper {
-    background-color: rgba(128, 128, 128, 0.637);
+    background-color: black;
+}
+.videoWrapper {
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+}
+
+.videoWrapper video {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+/* 4x3 Aspect Ratio */
+.videoWrapper-4x3 {
+    padding-top: 75%;
 }
