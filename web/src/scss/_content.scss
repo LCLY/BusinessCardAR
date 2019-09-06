@@ -1,16 +1,49 @@
-.project__title {
-    padding-top: 1.5rem;
+#project__title {
+    padding-bottom: 0.5rem;
+    border-bottom: inset 0.5px rgba(128, 128, 128, 0.568);
+}
 
-    border-bottom: 1px grey;
-    h1 {
-        font-size: 1.8rem;
+@media only screen and (min-width: 576px) {
+    .project__desc {
+        font-family: "Noto Sans TC", sans-serif;
+        font-size: 1rem;
+        padding-bottom: 1.5rem;
+        .project__desc--content {
+            padding-top: 1rem;
+            margin-right: 20%;
+        }
     }
 }
-.project__desc {
-    font-family: "Noto Sans TC", sans-serif;
-    font-size: 1.3rem;
-    padding-bottom: 1.5rem;
-    .project__desc--content {
-        margin-right: 20%;
+@media only screen and (min-width: 768px) {
+    .project__desc {
+        font-family: "Noto Sans TC", sans-serif;
+        font-size: 1.3rem;
+        padding-bottom: 1.5rem;
+        .project__desc--content {
+            padding-top: 1rem;
+            margin-right: 20%;
+        }
+    }
+}
+@media only screen and (min-width: 992px) {
+    .project__desc {
+        font-family: "Noto Sans TC", sans-serif;
+        font-size: 1.3rem;
+        padding-bottom: 1.5rem;
+        .project__desc--content {
+            padding-top: 1rem;
+            margin-right: 20%;
+        }
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .project__desc {
+        font-family: "Noto Sans TC", sans-serif;
+        font-size: 1.3rem;
+        padding-bottom: 1.5rem;
+        .project__desc--content {
+            padding-top: 1rem;
+            margin-right: 20%;
+        }
     }
 }

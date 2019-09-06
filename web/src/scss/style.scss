@@ -10,6 +10,13 @@
     .download__title {
         font-size: 1rem;
     }
+    .project__title {
+        padding-top: 1.5rem;
+        border-bottom: 1px grey;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
 }
 
 /* Custom, iPhone Retina */
@@ -19,6 +26,15 @@
     }
     .download__title {
         font-size: 1rem;
+    }
+    .project__title {
+        padding-top: 1.5rem;
+
+        border-bottom: 1px grey;
+        h1 {
+            font-size: 1.5rem;
+            padding-bottom: 0.5rem;
+        }
     }
 }
 
@@ -30,6 +46,15 @@
     .download__title {
         font-size: 1.5rem;
     }
+    .project__title {
+        padding-top: 1.5rem;
+
+        border-bottom: 1px grey;
+        h1 {
+            font-size: 2rem;
+            padding-bottom: 1.5rem;
+        }
+    }
 }
 
 /* Large Devices, Wide Screens */
@@ -39,5 +64,13 @@
     }
     .download__title {
         font-size: 2rem;
+    }
+    .project__title {
+        padding-top: 1.5rem;
+
+        h1 {
+            font-size: 2.5rem;
+            padding-bottom: 0.5rem;
+        }
     }
 }

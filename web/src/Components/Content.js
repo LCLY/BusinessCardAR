@@ -4,7 +4,7 @@ const Content = () => {
     return (
         <div>
             <div className="project__desc">
-                <div className="project__title">
+                <div className="project__title" id="project__title">
                     <h1>
                         <b>Project Description:</b>
                     </h1>
