@@ -54,7 +54,10 @@ const Content = () => {
                 them and try it out.
             </div>
             <CarouselComp />
-            <div className="project__desc--content">
+            <div
+                className="project__desc--content"
+                style={{ paddingTop: "1.5rem" }}
+            >
                 You can also interact with the 3D models, by enlarging/reducing
                 the model's size or play animation by interacting with the
                 buttons inside the virtual world.
