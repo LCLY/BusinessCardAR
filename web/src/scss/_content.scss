@@ -3,6 +3,12 @@
     border-bottom: inset 0.5px rgba(128, 128, 128, 0.568);
 }
 
+.project__secondHeader {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: inset 0.5px rgba(128, 128, 128, 0.568);
+}
+
 @media only screen and (min-width: 0px) {
     .project__desc {
         font-family: "Noto Sans TC", sans-serif;
@@ -21,7 +27,7 @@
         padding-bottom: 1rem;
         .project__desc--content {
             padding-top: 1rem;
-            margin-right: 20%;
+            margin-right: 10%;
             padding-bottom: 1rem;
         }
     }
@@ -33,7 +39,7 @@
         padding-bottom: 1rem;
         .project__desc--content {
             padding-top: 1rem;
-            margin-right: 20%;
+            margin-right: 10%;
             padding-bottom: 1rem;
         }
     }
@@ -45,7 +51,7 @@
         padding-bottom: 1.5rem;
         .project__desc--content {
             padding-top: 1rem;
-            margin-right: 20%;
+            margin-right: 10%;
             padding-bottom: 1rem;
         }
     }
@@ -57,7 +63,7 @@
         padding-bottom: 1.5rem;
         .project__desc--content {
             padding-top: 1rem;
-            margin-right: 20%;
+            margin-right: 10%;
             padding-bottom: 1rem;
         }
     }

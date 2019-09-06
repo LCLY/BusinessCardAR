@@ -1,13 +1,15 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
-
-const Carousel = () => {
+import cardinstruction from "../images/cardInstruction.jpg";
+import backcard from "../images/backcard.jpg";
+import frontcard from "../images/frontcard.jpg";
+const CarouselComp = () => {
     return (
         <Carousel>
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="holder.js/800x400?text=First slide&bg=373940"
+                    src={cardinstruction}
                     alt="First slide"
                 />
                 <Carousel.Caption>
@@ -21,7 +23,7 @@ const Carousel = () => {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="holder.js/800x400?text=Second slide&bg=282c34"
+                    src={backcard}
                     alt="Third slide"
                 />
 
@@ -35,7 +37,7 @@ const Carousel = () => {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="holder.js/800x400?text=Third slide&bg=20232a"
+                    src={frontcard}
                     alt="Third slide"
                 />
 
@@ -51,4 +53,4 @@ const Carousel = () => {
     );
 };
 
-export default Carousel;
+export default CarouselComp;
