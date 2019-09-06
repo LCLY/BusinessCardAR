@@ -1,20 +1,26 @@
 {
   "files": {
-    "main.css": "/BusinessCardAR/static/css/main.61ec13e0.chunk.css",
-    "main.js": "/BusinessCardAR/static/js/main.1d63a8e6.chunk.js",
-    "main.js.map": "/BusinessCardAR/static/js/main.1d63a8e6.chunk.js.map",
+    "main.css": "/BusinessCardAR/static/css/main.1f95a011.chunk.css",
+    "main.js": "/BusinessCardAR/static/js/main.a302fdf3.chunk.js",
+    "main.js.map": "/BusinessCardAR/static/js/main.a302fdf3.chunk.js.map",
     "runtime~main.js": "/BusinessCardAR/static/js/runtime~main.0131e16e.js",
     "runtime~main.js.map": "/BusinessCardAR/static/js/runtime~main.0131e16e.js.map",
     "static/css/2.266e55a5.chunk.css": "/BusinessCardAR/static/css/2.266e55a5.chunk.css",
-    "static/js/2.04bdb0f0.chunk.js": "/BusinessCardAR/static/js/2.04bdb0f0.chunk.js",
-    "static/js/2.04bdb0f0.chunk.js.map": "/BusinessCardAR/static/js/2.04bdb0f0.chunk.js.map",
+    "static/js/2.77d2fc89.chunk.js": "/BusinessCardAR/static/js/2.77d2fc89.chunk.js",
+    "static/js/2.77d2fc89.chunk.js.map": "/BusinessCardAR/static/js/2.77d2fc89.chunk.js.map",
     "index.html": "/BusinessCardAR/index.html",
-    "precache-manifest.916b3aee5d277f132e8f242b51a6d149.js": "/BusinessCardAR/precache-manifest.916b3aee5d277f132e8f242b51a6d149.js",
+    "precache-manifest.27b78666d42ce5740312498c12761d4f.js": "/BusinessCardAR/precache-manifest.27b78666d42ce5740312498c12761d4f.js",
     "service-worker.js": "/BusinessCardAR/service-worker.js",
     "static/css/2.266e55a5.chunk.css.map": "/BusinessCardAR/static/css/2.266e55a5.chunk.css.map",
-    "static/css/main.61ec13e0.chunk.css.map": "/BusinessCardAR/static/css/main.61ec13e0.chunk.css.map",
+    "static/css/main.1f95a011.chunk.css.map": "/BusinessCardAR/static/css/main.1f95a011.chunk.css.map",
     "static/media/CardAR.apk": "/BusinessCardAR/static/media/CardAR.14686b86.apk",
+    "static/media/back.jpg": "/BusinessCardAR/static/media/back.8f0f1c64.jpg",
+    "static/media/backcard.jpg": "/BusinessCardAR/static/media/backcard.e8c6e793.jpg",
     "static/media/card.jpg": "/BusinessCardAR/static/media/card.a227a7a3.jpg",
-    "static/media/cardar-cut.mp4": "/BusinessCardAR/static/media/cardar-cut.114087cb.mp4"
+    "static/media/cardInstruction.jpg": "/BusinessCardAR/static/media/cardInstruction.793c855e.jpg",
+    "static/media/cardar-cut.mp4": "/BusinessCardAR/static/media/cardar-cut.114087cb.mp4",
+    "static/media/front.jpg": "/BusinessCardAR/static/media/front.7cf31241.jpg",
+    "static/media/frontcard.jpg": "/BusinessCardAR/static/media/frontcard.3a955bd8.jpg",
+    "static/media/print.pdf": "/BusinessCardAR/static/media/print.1c47b3f5.pdf"
   }
 }
