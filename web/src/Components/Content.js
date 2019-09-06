@@ -1,6 +1,8 @@
 import React from "react";
 import frontCard from "../images/front.jpg";
 import backCard from "../images/back.jpg";
+import { Image } from "react-bootstrap";
+import CardApk from "../Components/Download/CardAR.apk";
 const Content = () => {
     return (
         <div className="project__desc">
@@ -14,11 +16,27 @@ const Content = () => {
                 allows user to scan an image target and it will generate certain
                 3D models
             </div>
-            <div className="businessCard">
-                <img src={frontCard}></img>
+            <div className="businessCard" style={{ display: "flex" }}>
+                <div style={{ paddingRight: "1rem" }}>
+                    <Image src={frontCard} fluid />
+                </div>
+                <div>
+                    <Image src={backCard} fluid />
+                </div>
             </div>
-            <div className="businessCard">
-                <img src={backCard}></img>
+            <div className="project__desc--content">
+                After &nbsp;
+                <a href={CardApk} download="CardAR.apk">
+                    downloading
+                </a>
+                &nbsp; and installing the app, open the app the scan any of the
+                images above. Each one of them will generate 3D models
+                respectively.
+            </div>
+            <div className="project__desc--content">
+                You can also interact with the 3D models, by enlarging/reducing
+                the model's size or play animation by interacting with the
+                buttons inside the virtual world.
             </div>
         </div>
     );
