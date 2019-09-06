@@ -36,11 +36,15 @@ const CarouselComp = () => {
                     </div>
                     <Carousel.Caption
                         style={{
-                            backgroundColor: "rgba(128, 128, 128, 0.568)",
+                            backgroundColor: "rgba(128, 128, 128, 0.8)",
                         }}
                     >
-                        <h3>{carouselItem.captionHeading}</h3>
-                        <p>{carouselItem.captionContent}</p>
+                        <h3 className="carousel__heading">
+                            <i>{carouselItem.captionHeading}</i>
+                        </h3>
+                        <p className="carousel__content">
+                            {carouselItem.captionContent}
+                        </p>
                     </Carousel.Caption>
                 </Carousel.Item>
             ))}

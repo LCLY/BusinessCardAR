@@ -8,12 +8,20 @@
         height: 100%;
         width: 100%;
     }
+    .carousel__heading {
+        font-family: "Noto Sans TC", sans-serif;
+        font-size: 1.2rem;
+    }
+    .carousel__content {
+        font-family: "Noto Sans TC", sans-serif;
+        font-size: 0.8rem;
+    }
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 320px) {
     .carousel--item {
-        height: 400px;
+        height: 300px;
         padding: 0 30%;
         background-color: black;
     }
@@ -21,18 +29,34 @@
         height: 100%;
         width: 100%;
     }
+    .carousel__heading {
+        font-family: "Noto Sans TC", sans-serif;
+        font-size: 1.2rem;
+    }
+    .carousel__content {
+        font-family: "Noto Sans TC", sans-serif;
+        font-size: 0.8rem;
+    }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
     .carousel--item {
-        height: 600px;
+        height: 550px;
         padding: 0 35%;
         background-color: black;
     }
     .carousel__image {
         height: 100%;
         width: 100%;
+    }
+    .carousel__heading {
+        font-family: "Noto Sans TC", sans-serif;
+        font-size: 1.2rem;
+    }
+    .carousel__content {
+        font-family: "Noto Sans TC", sans-serif;
+        font-size: 1rem;
     }
 }
 
@@ -46,5 +70,13 @@
     .carousel__image {
         height: 100%;
         width: 100%;
+    }
+    .carousel__heading {
+        font-family: "Noto Sans TC", sans-serif;
+        font-size: 1.2rem;
+    }
+    .carousel__content {
+        font-family: "Noto Sans TC", sans-serif;
+        font-size: 1rem;
     }
 }
