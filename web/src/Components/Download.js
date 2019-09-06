@@ -11,7 +11,7 @@ const Download = () => {
                     &nbsp; Download Apk
                 </Button>
             </a>
-            <div style={{ paddingTop: "0.5rem" }}>
+            <div className="download__footer" style={{ paddingTop: "0.5rem" }}>
                 Only Android for now, might require disabling Play Protect
                 during installation.
             </div>
