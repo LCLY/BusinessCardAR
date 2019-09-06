@@ -2,12 +2,21 @@
     padding-bottom: 0.5rem;
     border-bottom: inset 0.5px rgba(128, 128, 128, 0.568);
 }
-
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 0px) {
     .project__desc {
         font-family: "Noto Sans TC", sans-serif;
         font-size: 1rem;
         padding-bottom: 1.5rem;
+        .project__desc--content {
+            padding-top: 1rem;
+        }
+    }
+}
+@media only screen and (min-width: 576px) {
+    .project__desc {
+        font-family: "Noto Sans TC", sans-serif;
+        font-size: 1rem;
+        padding-bottom: 1rem;
         .project__desc--content {
             padding-top: 1rem;
             margin-right: 20%;
@@ -18,7 +27,7 @@
     .project__desc {
         font-family: "Noto Sans TC", sans-serif;
         font-size: 1.3rem;
-        padding-bottom: 1.5rem;
+        padding-bottom: 1rem;
         .project__desc--content {
             padding-top: 1rem;
             margin-right: 20%;

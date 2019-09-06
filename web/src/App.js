@@ -8,14 +8,14 @@ import Video from "../src/Components/Video";
 import Content from "../src/Components/Content";
 const App = () => {
     return (
-        <>
+        <div>
             <Container>
                 <Background />
                 <Video />
                 <Content />
                 <Download />
             </Container>
-        </>
+        </div>
     );
 };
 
