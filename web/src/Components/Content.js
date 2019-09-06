@@ -41,15 +41,15 @@ const Content = () => {
                 </h2>
             </div>
             <div className="project__desc--content">
-                After &nbsp;
+                After&nbsp;
                 <a href={CardApk} download="CardAR.apk">
                     downloading
                 </a>
-                &nbsp; and installing the app, open the app and scan the card or
+                &nbsp;and installing the app, open the app and scan the card or
                 scan any of the images above. Each one of them will generate 3D
                 models respectively. You can also
-                <a href={printCard} download="card.pdf">
-                    print
+                <a href={printCard} target="_blank">
+                    &nbsp;print&nbsp;
                 </a>
                 them and try it out.
             </div>
