@@ -45,22 +45,22 @@ const Content = () => {
                 <a href={CardApk} download="CardAR.apk">
                     downloading
                 </a>
-                &nbsp;and installing the app, open the app and scan the card or
-                scan any of the images above. Each one of them will generate 3D
-                models respectively. You can also
+                &nbsp;and installing the app, open the app and scan the business
+                card or scan any of the images above. Each one of them will
+                generate 3D models respectively. You can also
                 <a href={printCard} target="_blank">
-                    &nbsp;print&nbsp;
+                    &nbsp;print out&nbsp;
                 </a>
-                them and try it out.
+                a hard copy and play around with it.
             </div>
             <CarouselComp />
             <div
                 className="project__desc--content"
                 style={{ paddingTop: "1.5rem" }}
             >
-                You can also interact with the 3D models, by enlarging/reducing
-                the model's size or play animation by interacting with the
-                buttons inside the virtual world.
+                You can interact with the 3D models, by enlarging/reducing the
+                model's size or play animation by interacting with the buttons
+                inside the virtual world.
             </div>
         </div>
     );

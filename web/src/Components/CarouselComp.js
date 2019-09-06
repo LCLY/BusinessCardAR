@@ -4,40 +4,46 @@ import cardinstruction from "../images/cardInstruction.jpg";
 import backcard from "../images/backcard.jpg";
 import frontcard from "../images/frontcard.jpg";
 const CarouselComp = () => {
-    let carouselData = [
+    var carouselData = [
         {
-            imgLink: { cardinstruction },
-            captionHeading: "test1",
-            captionContent: "test content",
+            imgLink: cardinstruction,
+            captionHeading: "Instruction",
+            captionContent: "Scan for either side of the card",
         },
         {
-            imgLink: { backcard },
-            captionHeading: "test1",
-            captionContent: "test content",
+            imgLink: backcard,
+            captionHeading: "Back side",
+            captionContent: "Generate a 3D model with interactive buttons",
         },
         {
-            imgLink: { frontcard },
-            captionHeading: "test1",
-            captionContent: "test content",
+            imgLink: frontcard,
+            captionHeading: "Front side",
+            captionContent:
+                "Generate resume with the zoom in/out functionality",
         },
     ];
 
     return (
         <Carousel>
-            <Carousel.Item>
-                <div className="carousel--item">
-                    <img
-                        className="d-block w-100"
-                        src={carouselData.imgLink}
-                        alt="First slide"
-                        style={{ height: "100%" }}
-                    />
-                </div>
-                <Carousel.Caption>
-                    <h3>{carouselData.captionHeading}</h3>
-                    <p>{carouselData.captionContent}</p>
-                </Carousel.Caption>
-            </Carousel.Item>
+            {carouselData.map(carouselItem => (
+                <Carousel.Item>
+                    <div className="carousel--item">
+                        <img
+                            className="carousel__image d-block"
+                            src={carouselItem.imgLink}
+                            alt="First slide"
+                        />
+                    </div>
+                    <Carousel.Caption
+                        style={{
+                            backgroundColor: "rgba(128, 128, 128, 0.568)",
+                        }}
+                    >
+                        <h3>{carouselItem.captionHeading}</h3>
+                        <p>{carouselItem.captionContent}</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+            ))}
         </Carousel>
     );
 };
