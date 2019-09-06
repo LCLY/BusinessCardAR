@@ -1,22 +1,29 @@
+//libraries
 import React from "react";
+import { Image } from "react-bootstrap";
+
+//image path
 import frontCard from "../images/front.jpg";
 import backCard from "../images/back.jpg";
-import { Image } from "react-bootstrap";
+
+//download files
 import CardApk from "../Components/Download/CardAR.apk";
 import printCard from "../Components/Download/print.pdf";
+
+//component
 import CarouselComp from "./CarouselComp";
+
 const Content = () => {
     return (
-        <div className="project__desc">
+        <div className="project__desc" style={{ paddingTop: "1rem" }}>
             <div className="project__title" id="project__title">
                 <h1>
                     <b>Project Description:</b>
                 </h1>
             </div>
             <div className="project__desc--content">
-                An augmented reality android application built using Unity and
-                Vuforia, allows user to scan an image target and it will
-                generate targeted 3D models.
+                An augmented reality android application that allows user to
+                scan an image target and it will generate targeted 3D models.
             </div>
             <div
                 className="businessCard"
@@ -52,15 +59,31 @@ const Content = () => {
                     &nbsp;print out&nbsp;
                 </a>
                 a hard copy and play around with it.
+                <br />
+                <br />
+                You can interact with the 3D models, by enlarging/reducing the
+                model's size or play animation by interacting with the buttons
+                inside the virtual world.
             </div>
             <CarouselComp />
+            <div
+                className="project__secondHeader"
+                style={{ paddingTop: "2rem" }}
+            >
+                <h2>
+                    <b>Tools</b>
+                </h2>
+            </div>
             <div
                 className="project__desc--content"
                 style={{ paddingTop: "1.5rem" }}
             >
-                You can interact with the 3D models, by enlarging/reducing the
-                model's size or play animation by interacting with the buttons
-                inside the virtual world.
+                This application is built using
+                <a href="https://unity.com/">&nbsp;Unity3D&nbsp;</a>and
+                <a href="https://www.ptc.com/en/products/augmented-reality">
+                    &nbsp;Vuforia
+                </a>
+                .
             </div>
         </div>
     );
