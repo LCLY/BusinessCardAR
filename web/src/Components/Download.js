@@ -11,10 +11,6 @@ const Download = () => {
                     &nbsp; Download Apk
                 </Button>
             </a>
-            <div className="download__footer" style={{ paddingTop: "0.5rem" }}>
-                Only Android for now, might require disabling Play Protect
-                during installation.
-            </div>
             <div style={{ paddingTop: "0.5rem" }}>
                 <a
                     href="https://github.com/LCLY"
@@ -68,6 +64,10 @@ const Download = () => {
                         }}
                     />
                 </a>
+            </div>
+            <div className="download__footer" style={{ paddingTop: "0.5rem" }}>
+                Only Android for now, might require disabling Play Protect
+                during installation.
             </div>
         </div>
     );
