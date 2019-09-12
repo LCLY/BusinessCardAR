@@ -21,7 +21,11 @@ const Navbar = () => {
                     <Menu.Item as="a" href="#footerDiv">
                         Other links
                     </Menu.Item>
-                    <Menu.Item as="a" href={CardApk} download="CardAR.apk">
+                    <Menu.Item
+                        as="a"
+                        href="./Download/CardAR.apk"
+                        download="CardAR.apk"
+                    >
                         Download
                     </Menu.Item>
                 </Container>
