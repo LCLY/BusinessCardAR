@@ -1,6 +1,6 @@
 @media only screen and (min-width: 0px) {
     .carousel--item {
-        height: 300px;
+        height: 15em;
         padding: 0 30%;
         background-color: black;
     }
@@ -10,18 +10,18 @@
     }
     .carousel__heading {
         font-family: "Noto Sans TC", sans-serif;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .carousel__content {
         font-family: "Noto Sans TC", sans-serif;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 320px) {
     .carousel--item {
-        height: 300px;
+        height: 20em;
         padding: 0 30%;
         background-color: black;
     }
@@ -31,19 +31,59 @@
     }
     .carousel__heading {
         font-family: "Noto Sans TC", sans-serif;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .carousel__content {
         font-family: "Noto Sans TC", sans-serif;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .carousel--item {
+        height: 28em;
+        padding: 0 30%;
+        background-color: black;
+    }
+    .carousel__image {
+        height: 100%;
+        width: 100%;
+    }
+    .carousel__heading {
+        font-family: "Noto Sans TC", sans-serif;
+        font-size: 1rem;
+    }
+    .carousel__content {
+        font-family: "Noto Sans TC", sans-serif;
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .carousel--item {
+        height: 35em;
+        padding: 0 32%;
+        background-color: black;
+    }
+    .carousel__image {
+        height: 100%;
+        width: 100%;
+    }
+    .carousel__heading {
+        font-family: "Noto Sans TC", sans-serif;
+        font-size: 1rem;
+    }
+    .carousel__content {
+        font-family: "Noto Sans TC", sans-serif;
+        font-size: 0.7rem;
     }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
     .carousel--item {
-        height: 550px;
-        padding: 0 35%;
+        height: 25em;
+        padding: 0 32%;
         background-color: black;
     }
     .carousel__image {
@@ -63,8 +103,8 @@
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
     .carousel--item {
-        height: 600px;
-        padding: 0 35%;
+        height: 27em;
+        padding: 0 32%;
         background-color: black;
     }
     .carousel__image {
