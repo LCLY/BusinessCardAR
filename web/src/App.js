@@ -1,6 +1,7 @@
 import React from "react";
 import "./css/style.min.css";
-import { Container } from "react-bootstrap";
+// import { Container } from "react-bootstrap";
+import { Container } from "semantic-ui-react";
 //Component
 import Background from "../src/Components/Background";
 import Download from "../src/Components/Download";
@@ -15,7 +16,7 @@ const App = () => {
         <div>
             <Navbar />
             <HiddenNavbar />
-            <Container>
+            <Container text>
                 <Background />
                 <Video />
                 <Content />
