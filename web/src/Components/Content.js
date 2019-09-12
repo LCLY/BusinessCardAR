@@ -1,7 +1,7 @@
 //libraries
 import React from "react";
 import { Image } from "react-bootstrap";
-
+import { Header } from "semantic-ui-react";
 //image path
 import frontCard from "../images/front.jpg";
 import backCard from "../images/back.jpg";
@@ -17,9 +17,9 @@ const Content = () => {
     return (
         <div className="project__desc" style={{ paddingTop: "1rem" }}>
             <div className="project__title" id="project__title">
-                <h1>
+                <Header as="h2">
                     <b>Project Description:</b>
-                </h1>
+                </Header>
             </div>
             <div className="project__desc--content">
                 An augmented reality android application that allows user to
@@ -42,19 +42,19 @@ const Content = () => {
                     </div>
                 </div>
             </div>
-            <div className="project__secondHeader">
-                <h2>
-                    <b>How it works</b>
-                </h2>
+            <div className="project__secondHeader" id="project__title">
+                <Header as="h2">
+                    <b>How it works:</b>
+                </Header>
             </div>
             <div className="project__desc--content">
                 After&nbsp;
                 <a href={CardApk} download="CardAR.apk">
                     downloading
                 </a>
-                &nbsp;and installing the app, open the app and scan the business
-                card or scan any of the images above. Each one of them will
-                generate 3D models respectively. You can also
+                &nbsp;and installing the app, open the app and scan my business
+                card or scan the images above. Each one of them will generate 3D
+                models respectively. You can also
                 <a href={printCard} target="_blank">
                     &nbsp;print out&nbsp;
                 </a>
@@ -62,21 +62,32 @@ const Content = () => {
                 <br />
                 <br />
                 You can interact with the 3D models, by enlarging/reducing the
-                model's size or play animation by interacting with the buttons
-                inside the virtual world.
+                model's size or even play animations by interacting with the
+                buttons inside the virtual world.
             </div>
             <CarouselComp />
             <div
                 className="project__secondHeader"
-                style={{ paddingTop: "2rem" }}
+                id="project__title"
+                style={{ paddingTop: "1.5rem" }}
             >
-                <h2>
+                <Header as="h2">
+                    <b>Future goals</b>
+                </Header>
+            </div>
+            <div style={{ paddingTop: "1rem" }}>
+                Planning to add more functionalities, possibly by integrating a
+                backend to make it even more interactive, complex and
+                meaningful.
+            </div>
+            <div className="project__secondHeader" id="project__title">
+                <Header as="h2">
                     <b>Tools</b>
-                </h2>
+                </Header>
             </div>
             <div
                 className="project__desc--content"
-                style={{ paddingTop: "1.5rem" }}
+                style={{ paddingTop: "1rem" }}
             >
                 This application is built using
                 <a href="https://unity.com/">&nbsp;Unity3D&nbsp;</a>and
