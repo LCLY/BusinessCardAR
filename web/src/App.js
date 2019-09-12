@@ -6,15 +6,22 @@ import Background from "../src/Components/Background";
 import Download from "../src/Components/Download";
 import Video from "../src/Components/Video";
 import Content from "../src/Components/Content";
+import HiddenNavbar from "./Components/HiddenNavbar";
+import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
+
 const App = () => {
     return (
         <div>
+            <Navbar />
+            <HiddenNavbar />
             <Container>
                 <Background />
                 <Video />
                 <Content />
                 <Download />
             </Container>
+            <Footer />
         </div>
     );
 };
