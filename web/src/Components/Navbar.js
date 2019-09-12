@@ -1,5 +1,4 @@
 import React from "react";
-import { CardApk } from "./Download/CardAR.apk";
 import { Container, Menu } from "semantic-ui-react";
 const Navbar = () => {
     return (
