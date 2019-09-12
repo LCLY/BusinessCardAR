@@ -42,10 +42,12 @@ const Content = () => {
                     </div>
                 </div>
             </div>
-            <div className="project__secondHeader" id="project__title">
-                <Header as="h2">
-                    <b>How it works:</b>
-                </Header>
+            <div id="details">
+                <div className="project__secondHeader" id="project__title">
+                    <Header as="h2">
+                        <b>How it works:</b>
+                    </Header>
+                </div>
             </div>
             <div className="project__desc--content">
                 After&nbsp;
@@ -53,8 +55,8 @@ const Content = () => {
                     downloading
                 </a>
                 &nbsp;and installing the app, open the app and scan my business
-                card or scan the images above. Each one of them will generate 3D
-                models respectively. You can also
+                card or scan the images above. Each of them will generate a 3D
+                model respectively. You can also
                 <a href={printCard} target="_blank">
                     &nbsp;print out&nbsp;
                 </a>
