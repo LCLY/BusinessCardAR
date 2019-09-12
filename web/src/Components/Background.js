@@ -1,8 +1,11 @@
 import React from "react";
+import { Header } from "semantic-ui-react";
 const Background = () => {
     return (
-        <div>
-            <div className="title"> Business Card AR </div>
+        <div className="container--margin">
+            <Header as="h1" style={{ marginBottom: "1rem" }}>
+                Business Card AR
+            </Header>
         </div>
     );
 };
