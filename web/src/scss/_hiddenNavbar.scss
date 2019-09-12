@@ -1,0 +1,63 @@
+.hidden--outerContainer {
+    position: fixed;
+    background-color: black;
+    width: 100vw;
+}
+
+.hidden__top {
+    display: flex;
+}
+
+.hidden__home {
+    justify-content: flex-start;
+    margin-right: auto;
+    color: white;
+    padding: 1rem 0 1rem 1rem;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.hidden__icon__div {
+    justify-content: flex-end;
+    margin-left: auto;
+    padding: 1rem 1rem 1rem 0;
+    align-items: center;
+}
+.hidden__icon {
+    font-size: 1.5rem;
+    z-index: 100;
+    color: white;
+}
+
+.hidden__items {
+    color: rgb(168, 167, 167);
+    padding: 0.5rem 0 0.5rem 1rem;
+    background-color: rgb(46, 46, 46);
+    &:active {
+        background-color: rgb(80, 71, 71);
+        color: black;
+    }
+}
+
+.hidden__items__even {
+    color: rgb(168, 167, 167);
+    padding: 0.5rem 0 0.5rem 1rem;
+    &:active {
+        background-color: rgb(80, 71, 71);
+        color: black;
+    }
+}
+
+.hidden__text {
+    color: inherit;
+    text-decoration: none;
+}
+
+.hidden__footer__icon {
+    cursor: pointer;
+    padding: 0 0.5rem 0 0.5rem;
+    font-size: 1.5rem;
+    &:hover {
+        color: grey;
+    }
+}
