@@ -30,7 +30,9 @@ class HiddenNavbar extends React.Component {
                     <div className="hidden--outerContainer">
                         <div className="hidden__top">
                             <a className="hidden__text" href="#">
-                                <div className="hidden__home">Boileride</div>
+                                <div className="hidden__home">
+                                    Business Card AR
+                                </div>
                             </a>
                             <div className="hidden__icon__div">
                                 <i
@@ -51,21 +53,11 @@ class HiddenNavbar extends React.Component {
 
                                 <a
                                     className="hidden__text"
-                                    href="#demoVideo"
+                                    href="#details"
                                     onClick={this.handleNavbarClick}
                                 >
                                     <div className="hidden__items__even">
-                                        Demo
-                                    </div>
-                                </a>
-
-                                <a
-                                    className="hidden__text"
-                                    href="#documentDiv"
-                                    onClick={this.handleNavbarClick}
-                                >
-                                    <div className="hidden__items">
-                                        Documentation
+                                        Details
                                     </div>
                                 </a>
 
@@ -76,6 +68,15 @@ class HiddenNavbar extends React.Component {
                                 >
                                     <div className="hidden__items__even">
                                         Other links
+                                    </div>
+                                </a>
+                                <a
+                                    className="hidden__text"
+                                    href="./Download/CardAR.apk"
+                                    download="cardAR.apk"
+                                >
+                                    <div className="hidden__items">
+                                        Download
                                     </div>
                                 </a>
 
