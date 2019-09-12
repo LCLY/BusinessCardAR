@@ -1,4 +1,5 @@
 import React from "react";
+import { CardApk } from "./Download/CardAR.apk";
 import { Container, Menu } from "semantic-ui-react";
 const Navbar = () => {
     return (
@@ -19,6 +20,9 @@ const Navbar = () => {
                     </Menu.Item>
                     <Menu.Item as="a" href="#footerDiv">
                         Other links
+                    </Menu.Item>
+                    <Menu.Item as="a" href={CardApk} download="CardAR.apk">
+                        Download
                     </Menu.Item>
                 </Container>
             </Menu>
