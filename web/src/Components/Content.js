@@ -37,12 +37,13 @@ const Content = () => {
                 </div>
                 <div>
                     <Image src={backCard} fluid alt="Back Card" />
-                    <div>
+                    <div id="details">
                         <i>Back side</i>
                     </div>
                 </div>
             </div>
-            <div id="details">
+
+            <div>
                 <div className="project__secondHeader" id="project__title">
                     <Header as="h2">
                         <b>How it works:</b>
