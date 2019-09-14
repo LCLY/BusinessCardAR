@@ -66,7 +66,7 @@ class HiddenNavbar extends React.Component {
                                     href="#footerDiv"
                                     onClick={this.handleNavbarClick}
                                 >
-                                    <div className="hidden__items__even">
+                                    <div className="hidden__items">
                                         Other links
                                     </div>
                                 </a>
@@ -75,7 +75,7 @@ class HiddenNavbar extends React.Component {
                                     href="./Download/CardAR.apk"
                                     download="cardAR.apk"
                                 >
-                                    <div className="hidden__items">
+                                    <div className="hidden__items__even">
                                         Download
                                     </div>
                                 </a>
